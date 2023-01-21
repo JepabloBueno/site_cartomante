@@ -7,13 +7,25 @@ CORES:
 #8C6954
 #D9A78B
 
-font-family: 'Roboto mono', mono space;
+font-family: 'Roboto mono', monospace;
+font-family: 'Playfair Display', serif;
 */
 
 * {
     margin: 0; padding: 0;
-    font-family: 'Roboto mono', mono space;
     font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+h4, h5, h6 {
+    text-align: center;
+    font-family: 'Roboto mono', monospace;
 }
 
 header{
@@ -86,7 +98,35 @@ header div#chamada {
 }
 
 header div#chamada a {
-    
+    text-decoration: none;
+    color: white;
 }
+
+header div#chamada h4 {
+    font-size: 200%;
+    margin-bottom: 70px;
+    color: #F2CEAE ;
+    text-shadow: 4px 6px 12px #000
+}
+
+header div#chamada h1 {
+    font-size: 400%;
+    font-weight: 100px;
+    margin-bottom: 25px;
+    text-shadow: 4px 6px 12px #000;
+    color: #F2CEAE;
+}
+
+header div#chamada a {
+    font-family: 'Roboto mono', monospace;
+    font-size: 120%;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    background: linear-gradient(rgb(83, 68, 57)0%, rgb(75, 62, 51)40%, rgba(64,53,44)100%);
+    padding: 20px 80px;
+    border-radius: 50px;
+}
+
 
 
