@@ -1,0 +1,32 @@
+/*
+font-family: 'Roboto mono', monospace;
+font-family: 'Playfair Display', serif;
+*/
+
+* {
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+h4, h5, h6 {
+    text-align: center;
+    font-family: 'Roboto mono', monospace;
+}
+
+/* NAV */
+
+nav div#infos-esquerda ul{
+    list-style: none;
+}
+
+nav div#infos-esquerda ul li a{
+    color: white;
+    font-size: 150%;
+    text-decoration: none;
+}

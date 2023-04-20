@@ -1,11 +1,11 @@
 /*
 CORES:
 
-#8C7B26
-#40352C
-#F2CEAE
-#8C6954
-#D9A78B
+AZUL FORTE: #3C7DA6
+AZUL FRACO: #96D2D9
+CREME: #F2E8C9
+BEGE: #735B2F
+MARROM: #401201
 
 font-family: 'Roboto mono', monospace;
 font-family: 'Playfair Display', serif;
@@ -13,20 +13,8 @@ font-family: 'Playfair Display', serif;
 
 * {
     margin: 0; padding: 0;
-    font-size: 16px;
 }
 
-h1, h2, h3 {
-    font-family: 'Playfair Display', serif;
-    transform: uppercase;
-    text-align: center;
-    color: white;
-}
-
-h4, h5, h6 {
-    text-align: center;
-    font-family: 'Roboto mono', monospace;
-}
 
 header{
     position: relative;
@@ -39,9 +27,7 @@ header{
 
 nav {
     width: 100%;
-    height: 200px;
-
-    
+    height: 200px;    
 }
 
 div#logo {
@@ -57,34 +43,29 @@ div#logo {
 
 }
 
-nav ul#esquerda {
+nav div#infos-esquerda {
     float: left;
+    width: 30%;
+    height: 50px;
+    margin-top: 90px;
+    margin-left: 90px;
+
 }
 
-nav ul {
+nav div#infos-esquerda ul {
     display: flex;
     flex-flow: row wrap;
-    justify-content: left;
-    margin-top: 70px;
-    margin-left: 100px;
-    height: 40px;
+    justify-content: space-between;
 }
 
-nav ul li {
-    list-style: none;
+nav div#infos-esquerda ul li {
+    padding: 5px;
 }
 
-nav ul li a {
-    color: white;
-    font-size: 130%;
-    text-decoration: none;
-    padding: 10px 30px;
-}
-
-nav ul li a:hover {
-    background-color: rgba(240, 248, 255, 0.07);
-    transition-duration: 0.5s;
+nav div#infos-esquerda ul li:hover {
+    background-color: rgba(255, 255, 255, 0.118);
     border-radius: 80px;
+    transition-duration: 0.5s;
 }
 
 header div#chamada {
@@ -97,24 +78,24 @@ header div#chamada {
     text-align: center;
 }
 
-header div#chamada a {
-    text-decoration: none;
-    color: white;
-}
-
-header div#chamada h4 {
-    font-size: 200%;
-    margin-bottom: 70px;
-    color: #F2CEAE ;
-    text-shadow: 4px 6px 12px #000
-}
-
 header div#chamada h1 {
     font-size: 400%;
     font-weight: 100px;
     margin-bottom: 25px;
     text-shadow: 4px 6px 12px #000;
-    color: #F2CEAE;
+    color: #ee0808;
+}
+
+header div#chamada h4 {
+    font-size: 200%;
+    margin-bottom: 70px;
+    color: white; 
+    text-shadow: 3px 1px 5px black;
+}
+
+header div#chamada a {
+    text-decoration: none;
+    color: white;
 }
 
 header div#chamada a {
@@ -123,10 +104,13 @@ header div#chamada a {
     color: white;
     text-decoration: none;
     font-weight: 600;
-    background: linear-gradient(rgb(83, 68, 57)0%, rgb(75, 62, 51)40%, rgba(64,53,44)100%);
+    background: linear-gradient(rgb(18, 50, 115)0%, rgb(28, 78, 178)50%, rgb(21, 58, 132))100%;
     padding: 20px 80px;
     border-radius: 50px;
 }
+
+
+
 
 
 
