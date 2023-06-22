@@ -1,11 +1,11 @@
 /*
 CORES:
 
-AZUL FORTE: #3C7DA6
-AZUL FRACO: #96D2D9
-CREME: #F2E8C9
-BEGE: #735B2F
-MARROM: #401201
+AZUL FORTE: #123273
+AMARELO FORTE: #F2B705
+AMARELO PALHA: #BF7E04
+VERMELHO ESCURO: #8C0B0B
+VERMELHO CLARO: #F22222
 
 font-family: 'Roboto mono', monospace;
 font-family: 'Playfair Display', serif;
@@ -37,10 +37,8 @@ div#logo {
     background-repeat: no-repeat;
     width: 150px;
     height: 150px; 
-
     margin-top: 25px;
     margin-left: 50px;
-
 }
 
 nav div#infos-esquerda {
@@ -108,6 +106,114 @@ header div#chamada a {
     padding: 20px 80px;
     border-radius: 50px;
 }
+
+/*--------------*/
+/*    SOBRE     */
+/*--------------*/
+
+section#sobre {
+    width: 100%;
+    height: 800px;
+}
+
+section#sobre h2 {
+    color: #ee0808;
+}
+
+section#sobre p {
+    text-align: center;
+    margin-top: 30px;
+}
+
+div#sobre-cartomancia {
+    width: 100%;
+    height: 400px;
+    position: relative;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+
+div#sobre-esquerda{
+    width: 20%;
+    height: 600px;
+    margin-left: 15px;
+    margin-top: -160px;
+    background-image: url(../imagens/carta1ok.png);
+    background-repeat: no-repeat;
+}
+
+div#sobre-meio {
+    width: 55%;
+    height: 550px; 
+}
+
+div#sobre-direita {
+    width: 20%;
+    height: 600px;
+    margin-right: 15px;
+    margin-top: -160px;
+    background-image: url(../imagens/carta2ok.png);
+    background-repeat: no-repeat;
+
+    
+}
+
+/*--------------*/
+/*    VALORES   */
+/*--------------*/
+
+section#valores {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.582),rgba(0, 0, 0, 0.566)), url(../imagens/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: -175px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+section#valores div#janela-top {
+    width: 600px;
+    height: 450px;
+    margin-top: 115px;
+    position: relative;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-radius: 30px;
+
+
+    background-color: rgba(255, 255, 255, 0.863);
+}
+
+section#valores div#janela-top p {
+    margin-top: 35px;
+    margin-left: 20px;
+    
+}
+
+section#valores div#janela-top h4 {
+    margin-top: 50px;
+    color: rgb(3, 202, 3);
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+}
+
+
+
+
+
+ 
 
 
 
