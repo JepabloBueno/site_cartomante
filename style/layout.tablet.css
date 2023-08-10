@@ -1,0 +1,8 @@
+/* HEADER */
+
+nav div#infos-esquerda {
+    width: 50%;
+}
+div#sobre-esquerda, div#sobre-direita {
+    display: none;
+}
