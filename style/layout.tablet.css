@@ -1,8 +1,55 @@
 /* HEADER */
-
 nav div#infos-esquerda {
     width: 50%;
+    
 }
-div#sobre-esquerda, div#sobre-direita {
+
+header div#chamada {
+    background-color: blac;
+    width: 80%;
+    height: 60%;
+    margin-top: 100px;
+}
+
+header div#chamada h1 {
+    width: 90%;
+    font-size: 500%;
+    margin-left: 18px;
+
+    
+}
+
+header div#chamada h4 {
+    width: 90%;
+    font-size: 300%;
+    margin-top: 60px;
+    margin-left: 18px;
+}
+
+div#chamada a#botao{
     display: none;
+}
+
+/* SOBRE*/
+
+section#sobre {
+    height: 85vh;
+}
+
+section#sobre p {
+    font-weight: 600;
+}
+
+div#sobre-esquerda, div#sobre-direita {
+    background-image: none;
+}
+
+div#sobre-meio p {
+    font-weight: 600;  
+}
+
+/* VALORES */
+
+section#valores div#janela-top {
+    height: 650px;
 }

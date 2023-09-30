@@ -35,6 +35,10 @@ nav div#infos-esquerda ul li a{
     text-decoration: none;
 }
 
+div#chamada a#botao {
+    font-family: 'Roboto mono', monospace;
+}
+
 /*--------------*/
 /*    SOBRE     */
 /*--------------*/
