@@ -52,4 +52,29 @@ div#sobre-meio p {
 
 section#valores div#janela-top {
     height: 650px;
+    padding-top: 20px;
 }
+
+section#valores div#janela-top p {
+    font-size: 135%;
+}
+
+section#valores div#janela-top h4 {
+    font-size: 600%;
+    padding-top: 50px;
+    
+}
+
+/* FOOTER */
+
+footer div#info ul li {
+    font-size: 120%;
+    font-weight: 400;
+}
+
+footer div#redes-sociais {
+    margin-top: -110px;
+}
+
+
+
