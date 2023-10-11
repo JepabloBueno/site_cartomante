@@ -36,7 +36,7 @@ section#sobre {
 }
 
 section#sobre p {
-    font-weight: 600;
+    font-weight: 500;
 }
 
 div#sobre-esquerda, div#sobre-direita {
@@ -44,7 +44,7 @@ div#sobre-esquerda, div#sobre-direita {
 }
 
 div#sobre-meio p {
-    font-weight: 600;  
+    font-weight: 500;  
 }
 
 
@@ -68,16 +68,20 @@ section#valores div#janela-top {
 }
 
 section#valores div#janela-top p {
-    font-size: 135%;
+    font-size: 125%;
 }
 
 section#valores div#janela-top h4 {
     font-size: 600%;
-    padding-top: 50px;
+    padding-top: 70px;
     
 }
 
 /* FOOTER */
+
+footer {
+    height: 730px;
+}
 
 footer div#info ul li {
     font-size: 120%;
